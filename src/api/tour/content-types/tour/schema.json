@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours",
+  "info": {
+    "singularName": "tour",
+    "pluralName": "tours",
+    "displayName": "Tours"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price_2h": {
+      "type": "string"
+    },
+    "price_3h": {
+      "type": "string"
+    },
+    "price_all_day": {
+      "type": "string"
+    },
+    "price_kid": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
