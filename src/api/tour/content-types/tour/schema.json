@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tour",
     "pluralName": "tours",
-    "displayName": "Tours"
+    "displayName": "Tours",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,32 +16,70 @@
       "type": "string"
     },
     "description": {
+      "type": "text"
+    },
+    "price_adult_2h": {
       "type": "string"
     },
-    "price_2h": {
+    "price_adult_3h": {
       "type": "string"
     },
-    "price_3h": {
-      "type": "string"
-    },
-    "price_all_day": {
+    "price_adult_all_day": {
       "type": "string"
     },
     "price_kid": {
       "type": "string"
     },
-    "price": {
-      "type": "string"
-    },
     "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "price_adult": {
+      "type": "string"
+    },
+    "price_kid_2h": {
+      "type": "string"
+    },
+    "price_kid_3h": {
+      "type": "string"
+    },
+    "price_kid_all_day": {
+      "type": "string"
+    },
+    "fixedDuration": {
+      "type": "string"
+    },
+    "top_attractions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::top-attraction.top-attraction"
+    },
+    "faqs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq.faq"
+    },
+    "reviewers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reviewer.reviewer"
+    },
+    "slug": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::slug.slug"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
     }
   }
 }
