@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "slugs",
+  "collectionName": "discount_codes",
   "info": {
-    "singularName": "slug",
-    "pluralName": "slugs",
-    "displayName": "Slugs",
+    "singularName": "discount-code",
+    "pluralName": "discount-codes",
+    "displayName": "Discount codes",
     "description": ""
   },
   "options": {
@@ -12,13 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "code": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
-    },
-    "display_name": {
+    "discount": {
       "type": "string"
     }
   }

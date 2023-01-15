@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Orders",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "adults": {
+      "type": "string"
+    },
+    "kids": {
+      "type": "string"
+    },
+    "baskets": {
+      "type": "string"
+    },
+    "locks": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "subtotal": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "tax": {
+      "type": "string"
+    },
+    "discount_code": {
+      "type": "string"
+    },
+    "tour": {
+      "type": "string"
+    },
+    "tour_date": {
+      "type": "string"
+    }
+  }
+}

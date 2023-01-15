@@ -4,7 +4,8 @@
   "info": {
     "singularName": "reviewer",
     "pluralName": "reviewers",
-    "displayName": "Reviewers"
+    "displayName": "Reviewers",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,16 +17,6 @@
     },
     "review": {
       "type": "text"
-    },
-    "img": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
