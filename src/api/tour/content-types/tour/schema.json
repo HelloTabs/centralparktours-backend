@@ -77,9 +77,12 @@
       "target": "api::slug.slug"
     },
     "rating": {
-      "type": "integer",
+      "type": "float",
       "max": 5,
       "min": 1
+    },
+    "reviews_count": {
+      "type": "integer"
     }
   }
 }
