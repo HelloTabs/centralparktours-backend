@@ -56,11 +56,6 @@
     "fixedDuration": {
       "type": "string"
     },
-    "top_attractions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::top-attraction.top-attraction"
-    },
     "faqs": {
       "type": "relation",
       "relation": "oneToMany",
@@ -92,6 +87,11 @@
     },
     "tax_rate": {
       "type": "string"
+    },
+    "attractions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::attraction.attraction"
     }
   }
 }
