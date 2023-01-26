@@ -92,11 +92,6 @@
     },
     "tax_rate": {
       "type": "string"
-    },
-    "attractions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::attraction.attraction"
     }
   }
 }
