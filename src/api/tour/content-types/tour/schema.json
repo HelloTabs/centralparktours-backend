@@ -83,6 +83,15 @@
     },
     "reviews_count": {
       "type": "integer"
+    },
+    "baskets": {
+      "type": "string"
+    },
+    "locks": {
+      "type": "string"
+    },
+    "tax_rate": {
+      "type": "string"
     }
   }
 }
