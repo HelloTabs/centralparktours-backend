@@ -16,8 +16,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', '*.digitaloceanspaces.com'],
-          'media-src': ["'self'", 'data:', 'blob:', '*.digitaloceanspaces.com'],
+          'img-src': ["'self'", 'data:', 'blob:', '*.digitaloceanspaces.com', '*.strapiapp.com'],
+          'media-src': ["'self'", 'data:', 'blob:', '*.digitaloceanspaces.com', '*.strapiapp.com'],
           upgradeInsecureRequests: null,
         },
       },
